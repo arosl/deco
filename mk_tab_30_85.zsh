@@ -46,8 +46,8 @@ echo "($bgas30 1/2: 15m - 21m) heading" >> $file
 
 #tables
 echo "($bgas30 2/2: 24m - 33m) heading" >> $file
-./deco $opt -d 24 -g "$bgas30,[$dgas6]" -t $time12d -p >> $file
-./deco $opt -d 27 -g "$bgas30,[$dgas6]" -t $time12d -p >> $file
+./deco $opt -d 24 -g "$bgas30,[$dgas6]" -t $time12c -p >> $file
+./deco $opt -d 27 -g "$bgas30,[$dgas6]" -t $time12c -p >> $file
 ./deco $opt -d 30 -g "$bgas30,[$dgas6]" -t $time12c -p >> $file
 ./deco $opt -d 33 -g "$bgas30,[$dgas6]" -t $time12c -p >> $file
 
@@ -73,8 +73,8 @@ echo "($bgas36 1/2: 15m - 21m) heading" >> $file
 
 #tables
 echo "($bgas36 2/2: 24m - 33m) heading" >> $file
-./deco $opt -d 24 -g "$bgas36,[$dgas6]" -t $time12d -p >> $file
-./deco $opt -d 27 -g "$bgas36,[$dgas6]" -t $time12d -p >> $file
+./deco $opt -d 24 -g "$bgas36,[$dgas6]" -t $time12c -p >> $file
+./deco $opt -d 27 -g "$bgas36,[$dgas6]" -t $time12c -p >> $file
 ./deco $opt -d 30 -g "$bgas36,[$dgas6]" -t $time12c -p >> $file
 ./deco $opt -d 33 -g "$bgas36,[$dgas6]" -t $time12c -p >> $file
 
