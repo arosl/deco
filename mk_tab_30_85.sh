@@ -24,7 +24,7 @@ bgas57=18/45
 bgas72=15/55
 bgas90=10/65
 
-opt="-f $GFlow,$GFhigh -r 9.0"
+opt="-r 9.0 -f $GFlow,$GFhigh"
 num=0
 
 num=$(($num+1))
